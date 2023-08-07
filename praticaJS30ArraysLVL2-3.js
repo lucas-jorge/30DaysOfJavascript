@@ -12,7 +12,7 @@ const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
 shoppingCart.unshift('Meat');
 shoppingCart.push('Sugar');
 
-const allergicToHoney = prompt('Are you allergic to honey?').toLowerCase();
+const allergicToHoney = prompt('Are you allergic to honey? ').toLowerCase();
 
 if (allergicToHoney === 'yes') {
     shoppingCart.splice(shoppingCart.indexOf('Honey'), 1, 'Green Tea');
